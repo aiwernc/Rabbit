@@ -1,0 +1,41 @@
+body {
+  /*background-color: purple;*/
+  background-image: url("images/doodles.png");
+  background-size: cover ;
+  background-repeat: no-repeat;
+   
+}
+/*{margin :0;}*/
+h1{
+  font-size:2em;
+  text-align: center;
+
+}
+div{
+  /*column-count: 2;divide text into two column*/
+  width: 48%;
+  display: inline-block;
+  vertical-align:top;/*ony works for inline block*/
+}
+img {
+  width :100%;
+  max-width:400px;/*the photo will always show 100% until it reaches 400pixel*/
+  border :5px dashed black ; /*solid|dashed|dotted|inset|*/
+  border-radius: 50%;
+  box-shadow: 10px -15px 20px /*blur radius*/ 1px /*spread radius*/ rgb(226, 115, 115) ;
+  display:block;
+  margin-left :auto;
+  margin-right:auto;
+}
+.para1{
+  color: red;
+}
+
+ul li{
+  color:green;
+}
+a:hover{
+  color:red;
+  background-color : black;
+  transition : color 2s;
+}
